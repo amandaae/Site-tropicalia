@@ -29,3 +29,90 @@ body {
     color: yellow;
   }
   
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #fff8f0;
+  color: #333;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #00875f;
+}
+
+header {
+  background: linear-gradient(to right, #ffe500, #00c4b4);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #000;
+  margin: 0;
+}
+
+.accessibility-menu button {
+  background: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 3px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.accessibility-menu button:hover {
+  background: #ddd;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body.high-contrast {
+  background-color: #000;
+  color: #fff;
+}
+
+body.high-contrast a {
+  color: yellow;
+}
+
