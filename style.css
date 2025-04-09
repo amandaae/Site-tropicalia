@@ -176,3 +176,40 @@ blockquote {
   padding: 15px;
   max-width: 600px;
 }
+
+
+
+
+
+
+
+
+
+.main-nav {
+  background-color: #00875f;
+  padding: 10px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
