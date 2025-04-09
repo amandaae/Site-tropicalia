@@ -213,3 +213,35 @@ blockquote {
 .main-nav a:hover {
   text-decoration: underline;
 }
+
+
+
+
+
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00875f;
+  z-index: 1000;
+}
+
+
+
+
+
+
+
+header {
+  margin-top: 60px; /* ajuste conforme altura do menu */
+}
+
+
+
+
+.main-nav {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+}
